@@ -93,6 +93,7 @@ Additional target machines can be added to the same virtual network in future pr
 | 🌍 DNS Server      | 8.8.8.8            |
 | 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
 
+![](IP Address Assigned.png)
 ---
 
 # 🪜 Lab Setup Procedure
