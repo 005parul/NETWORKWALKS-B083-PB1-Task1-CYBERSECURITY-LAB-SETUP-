@@ -69,7 +69,7 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-![](Downloaded 3 items.png)
+![](Downloaded-3-items.png) 
 
 
 Additional target machines can be added to the same virtual network in future projects.
@@ -93,7 +93,7 @@ Additional target machines can be added to the same virtual network in future pr
 | 🌍 DNS Server      | 8.8.8.8            |
 | 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
 
-![IP Address Assigned](IP%20Address%20Assigned.png)
+![](Configuring.png) 
 ---
 
 # 🪜 Lab Setup Procedure
