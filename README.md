@@ -1,4 +1,4 @@
-<<div align="center">
+<div align="center">
 
 # 🔐 Cybersecurity Lab Environment Setup
 
@@ -31,7 +31,6 @@ The purpose of the lab is to create a controlled environment where cybersecurity
 The lab is configured on a private virtual network so that additional machines can be added later and used as targets for authorized security testing.
 
 ---
-
 
 ## 🎯 Objectives
 
@@ -69,8 +68,7 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-![](Downloaded-3-items.png) 
-
+![](Downlaoded-3-items.png)
 
 Additional target machines can be added to the same virtual network in future projects.
 
@@ -79,11 +77,11 @@ Additional target machines can be added to the same virtual network in future pr
 ## ⚙️ Lab Configuration
 
 | 🧩 Component       | ⚙️ Configuration   |
-| ------------------ | ------------------  |
+| ------------------ | ------------------ |
 | 🖥️ Host OS         | Windows 10         |
 | 🧠 Host RAM        | 8 GB               |
-| ⚡ Processor       | Intel Core i7      |
-| 🧰 Hypervisor      | VirtualBox 7.2  |
+| ⚡ Processor        | Intel Core i7      |
+| 🧰 Hypervisor       | VirtualBox 7.2     |
 | 🐉 Security OS     | Kali Linux 2026.2  |
 | 🧠 Kali RAM        | 2048 MB            |
 | 🌐 Virtual Network | NAT Network        |
@@ -93,7 +91,8 @@ Additional target machines can be added to the same virtual network in future pr
 | 🌍 DNS Server      | 8.8.8.8            |
 | 🔮 Future VM Range | 10.0.0.3–10.0.0.99 |
 
-![](Configuring.png) 
+![](Configuring.png)
+
 ---
 
 # 🪜 Lab Setup Procedure
@@ -128,7 +127,6 @@ A **NAT Network** was selected because multiple virtual machines connected to th
 
 This will allow future attacker and target VMs to communicate within the lab.
 
-
 ---
 
 ## Step 4. Import Kali Linux
@@ -149,10 +147,10 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](Starting Kali.png)
+
+![](Starting-Kali.png)
+
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
-
-
 
 ---
 
@@ -171,7 +169,7 @@ DNS: 8.8.8.8
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-![](Configuring.png)
+![](IP-Address-assigned.png)
 
 ---
 
@@ -188,7 +186,6 @@ Clean Kali - Network Setup
 The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
-
 
 ---
 
@@ -252,7 +249,6 @@ The issue was resolved by:
 6. Starting the Kali VM again.
 
 After enabling virtualization, the VM started successfully.
-
 
 ---
 
