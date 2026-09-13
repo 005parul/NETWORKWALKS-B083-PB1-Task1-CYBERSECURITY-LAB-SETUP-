@@ -306,7 +306,8 @@ This laboratory is intended strictly for education purposes only.
 # 👤 Author
 
 **Parul Bhople**\
-Cybersecurity Professional B082
+Final year Computer Engineering student
+Navi Mumbai, Maharashtra, India
 
 LinkedIn: [(https://www.linkedin.com/in/parul-b-b7b4a22a8/)]
 
